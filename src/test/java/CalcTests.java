@@ -43,6 +43,7 @@ public class CalcTests {
     @After
     public void finish(){
         service.stop();
+        driver.close();
     }
     @Test
     public void firstTest(){
@@ -58,4 +59,22 @@ public class CalcTests {
 
         driver.close();
     }
+    @Test
+
+    public void twoTest(){
+      //  driver.findElement(By.xpath("//*[@AutomationId='num2Button']")).clickTab();//2
+        /*
+        driver.findElementById("num4Button").
+        driver.findElementByName("Два").clickTab();//2
+        driver.findElementByName("Плюс").clickTab();//+
+        driver.findElementByName("Четыре").clickTab();//4
+        driver.findElementByName("Умножить на").clickTab();//*
+        driver.findElementByName("Четыре").clickTab();//4
+        driver.findElementByName("Равно").clickTab();//=
+
+        driver.close();
+        */
+    }
+
+
 }

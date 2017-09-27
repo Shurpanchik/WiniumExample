@@ -46,6 +46,7 @@ public class NotepadTest {
      @After
      public void finish(){
             service.stop();
+            driver.close();
      }
     @Test
     public void firstTest() throws IOException {
@@ -62,7 +63,7 @@ public class NotepadTest {
         driver.findElement(By.xpath("//*[@ControlType='ControlType.MenuBar'"));
         driver.findElement(By.xpath("//*[@AutomationId='MenuBar']"));
                // .findElement(By.xpath("//*[@AutomationId='Item 1']"))
-               // .click();
+               // .clickTab();
         driver.findElement(By.xpath("//*[@AutomationId='Item 1']")).click();
         driver.findElement(By.xpath("//*[@AutomationId='Item 2']")).click();
         driver.findElement(By.xpath("//*[@AutomationId='Item 3']")).click();
@@ -97,7 +98,7 @@ public class NotepadTest {
         Thread.sleep(2000);
         driver.findElement(new By.ByClassName("#32770")).click();
         //    window2.findElement(new By.ByClassName("Edit")).sendKeys("kdlfklsd");
-        //   window.findElement(By.name("Don't Save")).click();
+        //   window.findElement(By.name("Don't Save")).clickTab();
     }
 
 }
