@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.winium.WiniumDriver;
 
+import java.io.IOException;
+
 public class TabPanel {
 
     private WebElement tabPanel;
@@ -23,5 +25,6 @@ public class TabPanel {
     public WebElement getTabPanel() {
         return tabPanel;
     }
+
 }
 

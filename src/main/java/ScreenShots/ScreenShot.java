@@ -13,10 +13,11 @@ public class ScreenShot {
 
     public static BufferedImage grabScreen(int x, int y, int width, int hight) {
         try {
-            return new Robot().createScreenCapture(new Rectangle(x,y, width, hight)) ;
+            return new Robot().createScreenCapture(new Rectangle(x, y, width, hight));
         } catch (SecurityException e) {
         } catch (AWTException e) {
         }
         return null;
     }
+
 }
