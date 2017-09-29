@@ -16,7 +16,7 @@ public class ScrollBarInMonitorWindow {
                                 .findElement(By.className("Window"))
                                 .findElements(By.className("CCVScrollBar")).get(1);
         buttonUp = scroll.findElement(By.name("Строка вверх"));
-       // buttonDown = scroll.findElement(By.className("Строка вниз"));
+        buttonDown = scroll.findElement(By.name("Строка вниз"));
     }
 
     public WebElement getScroll() {

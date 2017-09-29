@@ -43,7 +43,7 @@ public class GraphicSteps {
     /*
         создание скриншотов графиков в заданном репозитории
      */
-    public static void makeSceenshotsByTab(String pathDirectory, List <WebElement> graphicList, WebElement scrollBar) throws IOException {
+    public static void makeSceenshotsByTab(String pathDirectory, List <WebElement> graphicList, WebElement scrollButtonDown) throws IOException {
         // создаем директорию, в которую положим скриншоты из таба network
         File path = new File(pathDirectory);
         path.mkdirs();
@@ -52,12 +52,13 @@ public class GraphicSteps {
 
         // определяем прямоугольник на экране и делаем скриншот
         for (WebElement graph : graphicList){
+            makeGraphicVisieble(graph,scrollButtonDown);
             int shiftY = GraphicSteps.getShiftGraphicScreenshotByY(cntgraphicInWindowMonitoring);
             System.out.println(shiftY);
             int x = Toolkit.getDefaultToolkit().getScreenSize().getSize().width - graph.getSize().getWidth()-50;
-            int y = (graph.getSize().getHeight()+20)*shiftY;
+            int y = (graph.getSize().getHeight()+15)*shiftY;
             int w = graph.getSize().getWidth()+150;
-            int h = graph.getSize().getHeight()+50;
+            int h = graph.getSize().getHeight()+150;
             String screen = GraphicSteps.getScreenNameGraph(graph);
             ImageIO.write(
                     grabScreen(x,y,w,h),
@@ -74,5 +75,14 @@ public class GraphicSteps {
                 .findElement(By.className("Window"))
                 .findElements(By.className("graph"));
         return  graphicList;
+    }
+
+    /*
+        Прокрутить график до зоны видимости
+     */
+    private static void makeGraphicVisieble(WebElement graph, WebElement scrollButtonDown){
+        while (!graph.isDisplayed()){
+            scrollButtonDown.click();
+        }
     }
 }
