@@ -1,4 +1,4 @@
-package Resmon;
+package Resmon.Objects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -16,6 +16,9 @@ public class SystemMenuPanel {
         monitoringTab = menuPanel.findElement(By.xpath("//*[@AutomationId='Item 2']"));
     }
 
+    /*
+        метод остановки графиков
+     */
     public void stopMonitoring(){
         monitoringTab.click();
         monitoringTab.findElement(By.name("Остановить мониторинг")).click();

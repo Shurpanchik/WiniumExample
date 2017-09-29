@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f27153b-c9af-4702-9036-0d2fe43abab4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Resmon/Steps/TabSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Resmon/Objects/ScrollBarInMonitorWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Winium1.iml" afterPath="$PROJECT_DIR$/Winium1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Resmon/Graphic.java" afterPath="$PROJECT_DIR$/src/main/java/Resmon/Graphic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Resmon/TabPanel.java" afterPath="$PROJECT_DIR$/src/main/java/Resmon/TabPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Resmon/Steps/TabSteps.java" afterPath="$PROJECT_DIR$/src/main/java/Resmon/Steps/TabSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ResmonTests.java" afterPath="$PROJECT_DIR$/src/test/java/ResmonTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ScreenShots/ScreenShot.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenShots/ScreenShot.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Resmon/Graphic.java" afterPath="$PROJECT_DIR$/src/main/java/Resmon/Steps/GraphicSteps.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Resmon/SystemMenuPanel.java" afterPath="$PROJECT_DIR$/src/main/java/Resmon/Objects/SystemMenuPanel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Resmon/TabPanel.java" afterPath="$PROJECT_DIR$/src/main/java/Resmon/Objects/TabPanel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,78 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Подключение по локальной сети 15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Подключение по локальной сети 15.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graphic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Graphic.java">
+      <file leaf-file-name="GraphicSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Steps/GraphicSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Сеть.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Сеть.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Подключение по локальной сети 12.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Подключение по локальной сети 12.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Беспроводная сеть 2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Беспроводная сеть 2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCP-подключения.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/TCP-подключения.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ethernet.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Ethernet.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ошибок страницы физической памятисек.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/memory/Ошибок страницы физической памятисек.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Использование физической памяти.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/memory/Использование физической памяти.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Сетевое подключение Bluetooth 2.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Сетевое подключение Bluetooth 2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -128,9 +64,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Resmon/SystemMenuPanel.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScreenShots/ScreenShot.java" />
         <option value="$PROJECT_DIR$/src/main/java/Resmon/TabPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Resmon/Steps/TabSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ResmonTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Resmon/Graphic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Steps/Graphic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Objects/TabPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Objects/GraphicsMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Objects/ScrollBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Steps/TabSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Objects/ScrollBarInMonitorWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Objects/SystemMenuPanel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ResmonTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resmon/Steps/GraphicSteps.java" />
       </list>
     </option>
   </component>
@@ -142,8 +85,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="354" />
-    <option name="y" value="7" />
+    <option name="x" value="299" />
+    <option name="y" value="-14" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -163,7 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +140,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Resmon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Winium1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Winium1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Resmon" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Winium1" type="b2602c69:ProjectViewProjectNode" />
@@ -242,45 +195,14 @@
               <item name="Winium1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Winium1" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Winium1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Winium1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="report1506607890353" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Winium1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Winium1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="report1506607987910" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Winium1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Winium1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="report1506607987910" type="462c0819:PsiDirectoryNode" />
-              <item name="memory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Winium1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Winium1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="report1506607987910" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,14 +314,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ResmonTests.findAllGraphicInNetworkTab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResmonTests.SceenAs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Winium1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ResmonTests" />
-      <option name="METHOD_NAME" value="findAllGraphicInNetworkTab" />
+      <option name="METHOD_NAME" value="SceenAs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -495,18 +417,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ResmonTests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ResmonTests.findAllGraphicInNetworkTab" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ResmonTests.NetworkTabGraphicTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ResmonTests.DiskTabGraphicTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ResmonTests.AllTabGraphicTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ResmonTests.NetworkTabGraphicTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ResmonTests.DiskTabGraphicTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ResmonTests.AllTabGraphicTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ResmonTests.SceenAs" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ResmonTests.AllTabGraphicTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ResmonTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ResmonTests.DiskTabGraphicTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ResmonTests.NetworkTabGraphicTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ResmonTests.findAllGraphicInNetworkTab" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ResmonTests.SceenAs" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ResmonTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ResmonTests.DiskTabGraphicTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ResmonTests.NetworkTabGraphicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -528,39 +450,46 @@
       <option name="project" value="LOCAL" />
       <updated>1506522960145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделаны скриншоты по табам (надо теперь сделать так чтобы эти скриншоты фотографировали именно графики)">
+      <created>1506609476186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506609476186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ResmonTests - 2017.09.28 at 16h 56m 09s.xml">
-      <configuration name="ResmonTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 16h 51m 30s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 11h 12m 33s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 16h 54m 38s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 11h 15m 58s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 16h 57m 03s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 11h 25m 15s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 17h 00m 22s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 11h 30m 56s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 17h 03m 23s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 11h 32m 44s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 17h 08m 47s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 12h 15m 13s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 17h 10m 36s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 12h 16m 53s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 17h 11m 54s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 12h 19m 18s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.28 at 17h 13m 33s.xml">
+    <history-entry file="ResmonTests_AllTabGraphicTest - 2017.09.29 at 12h 22m 18s.xml">
       <configuration name="ResmonTests.AllTabGraphicTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResmonTests_SceenAs - 2017.09.29 at 12h 03m 26s.xml">
+      <configuration name="ResmonTests.SceenAs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -569,13 +498,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.52916664" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.47083333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993197" sideWeight="0.47083333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -584,13 +514,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39909297" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39909297" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
@@ -630,14 +559,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="часть обработка ЦП" />
-    <option name="LAST_COMMIT_MESSAGE" value="часть обработка ЦП" />
+    <MESSAGE value="Сделаны скриншоты по табам (надо теперь сделать так чтобы эти скриншоты фотографировали именно графики)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделаны скриншоты по табам (надо теперь сделать так чтобы эти скриншоты фотографировали именно графики)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ResmonTests.java</url>
-          <line>52</line>
+          <line>54</line>
           <properties class="ResmonTests">
             <option name="EMULATED" value="true" />
           </properties>
@@ -645,7 +575,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ResmonTests.java</url>
-          <line>19</line>
+          <line>15</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -659,58 +589,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506600162374/network/TCP-подключения.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506600527767/network/Сеть.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506600527767/network/TCP-подключения.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506601328852/network/Сеть.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506601328852/network/TCP-подключения.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalcTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="64" column="88" lean-forward="false" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NotepadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="97" column="27" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506602113766/network/TCP-подключения.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506602113766/network/Сеть.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506603924224/disk/Диск.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506604178748/disk/0CD.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506604178748/disk/.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506603709302/disk/TCP-подключения.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506603709302/disk/Сеть.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenShots/ScreenShot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/TabPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506606674450/cp/ЦП 0.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506606674450/cp/ЦП 1.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506606674450/cp/ЦП 2.png" />
-    <entry file="file://$PROJECT_DIR$/target/reports/report1506606674450/cp/ЦП 3.png" />
     <entry file="file://$PROJECT_DIR$/target/reports/report1506606674450/cp/ЦП - Всего.png" />
     <entry file="file://$PROJECT_DIR$/target/reports/report1506606674450/cp/Использование ЦП службами.png" />
     <entry file="file://$PROJECT_DIR$/target/reports/report1506607007922/browser/Диск.png" />
@@ -776,36 +654,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ResmonTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Steps/TabSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Graphic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Сеть.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -849,6 +697,169 @@
     <entry file="file://$PROJECT_DIR$/target/reports/report1506607987910/network/Сетевое подключение Bluetooth 2.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Objects/GraphicsMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506671778612/memory/Выделение памяти.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506671778612/memory/Использование физической памяти.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506671778612/memory/Ошибок страницы физической памятисек.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/ResmonTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NotepadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="97" column="27" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506673804056/browser/Выделение памяти.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Objects/ScrollBarInMonitorWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Steps/TabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenShots/ScreenShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ResmonTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Objects/TabPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Objects/SystemMenuPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/cp/Использование ЦП службами.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/memory/Ошибок страницы физической памятисек.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/cp/ЦП 2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/cp/ЦП 1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/cp/ЦП 0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/memory/Использование физической памяти.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/cp/ЦП - Всего.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/memory/Выделение памяти.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/report1506676884117/cp/ЦП 3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resmon/Steps/GraphicSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

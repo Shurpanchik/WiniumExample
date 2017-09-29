@@ -1,7 +1,7 @@
 package Resmon.Steps;
 
-import Resmon.Graphic;
-import Resmon.TabPanel;
+import Resmon.Objects.ScrollBarInMonitorWindow;
+import Resmon.Objects.TabPanel;
 import org.openqa.selenium.winium.WiniumDriver;
 
 import java.io.IOException;
@@ -12,6 +12,6 @@ public class TabSteps {
         tabPanel.clickTab(nameTab);// клик по табу
         Thread.sleep(3000);
         //делаем скриншот
-        Graphic.makeSceenshotsByTab(path,Graphic.getGraphicList(driver));
+        GraphicSteps.makeSceenshotsByTab(path, GraphicSteps.getGraphicList(driver), new ScrollBarInMonitorWindow(driver).getButtonDown());
     }
 }
