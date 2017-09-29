@@ -20,11 +20,14 @@ public class GraphicSteps {
     *  Получение сдвига по y для создания скриншота
     */
 
-    public static int getShiftGraphicScreenshotByY(int cntgraphicInWindowMonitoring) {
-        if (cntgraphicInWindowMonitoring < 5) {
-            return cntgraphicInWindowMonitoring;
-        } else {
-            return 5;
+    public static int getShiftGraphicScreenshotByY(int cntgraphicInWindowMonitoring, WebElement graphic) {
+        int h = graphic.getSize().getHeight();
+        switch (cntgraphicInWindowMonitoring){
+            case 1: return h+10;
+            case 2: return 2*h+30;
+            case 3: return 3*h+40;
+            case 4: return 4*h+50;
+            default:return 5*h+100;
         }
     }
 
@@ -43,27 +46,29 @@ public class GraphicSteps {
     /*
         создание скриншотов графиков в заданном репозитории
      */
-    public static void makeSceenshotsByTab(String pathDirectory, List <WebElement> graphicList, WebElement scrollButtonDown) throws IOException {
+    public static void makeSceenshotsByTab(String pathDirectory, List <WebElement> graphicList, WebElement scrollButtonDown) throws IOException, InterruptedException {
         // создаем директорию, в которую положим скриншоты из таба network
         File path = new File(pathDirectory);
         path.mkdirs();
 
-        int cntgraphicInWindowMonitoring = 1;
-
         // определяем прямоугольник на экране и делаем скриншот
-        for (WebElement graph : graphicList){
-            makeGraphicVisieble(graph,scrollButtonDown);
-            int shiftY = GraphicSteps.getShiftGraphicScreenshotByY(cntgraphicInWindowMonitoring);
-            System.out.println(shiftY);
+        for (int i=0;i<graphicList.size();i++){
+            WebElement graph = graphicList.get(i);
+
+            if(i==graphicList.size()-1){
+                makeGraphicVisieble(null,scrollButtonDown);
+            }else {
+                makeGraphicVisieble(graphicList.get(i+1),scrollButtonDown);
+            }
+
             int x = Toolkit.getDefaultToolkit().getScreenSize().getSize().width - graph.getSize().getWidth()-50;
-            int y = (graph.getSize().getHeight()+15)*shiftY;
+            int y = getShiftGraphicScreenshotByY(i+1,graph);
             int w = graph.getSize().getWidth()+150;
             int h = graph.getSize().getHeight()+150;
             String screen = GraphicSteps.getScreenNameGraph(graph);
             ImageIO.write(
                     grabScreen(x,y,w,h),
                     "png", new File(pathDirectory, screen));
-            cntgraphicInWindowMonitoring++;
         }
     }
 
@@ -80,9 +85,19 @@ public class GraphicSteps {
     /*
         Прокрутить график до зоны видимости
      */
-    private static void makeGraphicVisieble(WebElement graph, WebElement scrollButtonDown){
-        while (!graph.isDisplayed()){
-            scrollButtonDown.click();
+    private static void makeGraphicVisieble(WebElement nextGraph, WebElement scrollButtonDown) throws InterruptedException {
+        if(nextGraph==null){
+            for(int i=0;i<14;i++){
+                scrollButtonDown.click();
+              //  Thread.sleep(1000);
+            }
+        }
+        else {
+            while (!nextGraph.isDisplayed()) {
+                scrollButtonDown.click();
+                Thread.sleep(1000);
+            }
         }
     }
+
 }
